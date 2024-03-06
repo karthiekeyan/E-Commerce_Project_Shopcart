@@ -1,0 +1,149 @@
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.shopcategory-indexsort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-sort{
+    width: 80px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+
+}
+
+.shopcategory-indexsort p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    display: flex;
+
+}
+.shopcategory-indexsort span{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+}
+
+
+.shopcategory-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media(max-width:1440px){
+    .shopcategory-banner{
+        margin: 20px auto;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .shopcategory-indexsort{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .shopcategory-indexsort span{
+        font-size: 16px;
+        
+    }
+    .shopcategory-sort{
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+    .shopcategory-indexsort p{
+        font-size: 16px;
+        
+    }
+    .shopcategory-products{
+        width: 90%;
+        margin: 10px auto;
+        row-gap: 40px;
+    }
+    .shopcategory-products .item{
+        margin: auto;
+    }
+}
+.shopcategory-loadmore{
+    margin: 100px auto;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+}
+
+@media(max-width:800px){
+    .shopcategory-banner{
+        width: 95%;
+        margin-top: 60px;
+    }
+    .shopcategory-products{
+        width: 95%;
+    }
+    .shopcategory-indexsort{
+        margin-bottom: 30px;
+    }
+    .shopcategory-indexsort span{
+        font-size: 16px;
+        
+    }
+    .shopcategory-indexsort p{
+        font-size: 16px;
+        
+    }
+    .shopcategory-loadmore{
+        margin: 60px auto;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+}
+
+@media(max-width:500px){
+    .shopcategory-banner{
+        margin-top: 50px;
+        
+    }
+    .shopcategory-products{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .shopcategory-products {
+        margin: auto;
+    }
+    .shopcategory-indexsort{
+        margin-bottom: 30px;
+    }
+    
+    .shopcategory-indexsort p{
+        font-size: 12px;
+        
+    }
+    .shopcategory-indexsort span{
+        font-size: 12px;
+        
+    }
+    .shopcategory-indexsort{
+        margin-bottom: 20px;
+    }
+}
